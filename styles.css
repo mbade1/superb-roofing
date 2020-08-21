@@ -1,0 +1,269 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  width: 50%;
+  margin: 0 auto; 
+  height: 100px;
+  display: inline-block;
+
+}
+
+/* Style logo in header */
+.logo-container img {
+  float: left;
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  width: 100%;
+  text-align: center;
+  display: inline-block;
+}
+.topnav ul {
+  list-style-type: none;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  padding-left: 20px;
+}
+
+.topnav li {
+  display: inline;
+}
+
+.topnav li a {
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+}
+
+.topnav ul li.right {float: right;}
+
+
+/* Style the topnav links */
+.topnav a {
+  margin: 0 auto; 
+  display: inline;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  padding: 20px;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: rgb(167, 161, 161);
+  color: black;
+}
+
+/* Style the pic under nav */
+
+.photo-headliner {
+  position: relative;
+  background-color: white;
+  padding: 10px;
+  height: 300px;
+  overflow: hidden;
+  background-image: url("photos/construction.jpeg");
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 300px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.inner-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+
+/* Style the content; Slideshow styling at bottom */
+ 
+.about {
+  background-color: white;
+  padding: 10px;
+  height: 20%; /* Should be removed. Only for demonstration */
+  display: inline-block;
+}
+
+/* Roofing Services Content */
+.roofing-services {
+  background-color: rgba(44, 120, 235, 0.5);
+  padding: 10px;
+  height: 15%; 
+  display: inline-block;
+  word-wrap:break-word;
+}
+
+.roofing-services .before-and-after-example {
+  float: right; 
+  margin: 0px 0px 15px 15px;
+  padding: 10px;
+  width: 350px;
+  height: 200px;
+  overflow: hidden;
+}
+
+.testimonials {
+  background-color: white;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+  width: 50%;
+  overflow: hidden;
+  float: left;
+}
+.testimonials h2{
+  text-align: center;
+}
+.testimonials p {
+  text-align: center;
+}
+
+.testimonials img {
+  margin-left: auto; 
+  margin-right: auto;
+  width: 50px;
+  height: 50px;
+}
+
+.connect {
+text-align: center;
+display: flex;
+justify-content: center;
+}
+
+
+.contact {
+background-color: white;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+  width: 50%;
+  float: left;
+  overflow: hidden;
+}
+
+.contact h2{
+  text-align: center;
+}
+
+.contact form {
+  width: 100%;
+}
+.contact form #message {
+  height: 50px;
+  width: 50%;
+}
+
+/* Style the footer */
+.footer {
+  background-color: #333;
+  padding: 10px;
+  color: rgb(182, 179, 179);
+}
+
+
+
+
+
+
+/* Slideshow container */
+.slideshow-container {
+  float: left; 
+  width:250px;
+  height:200px;
+  overflow: hidden;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+
+@media screen and (max-width: 600px) {
+  .topnav ul li.right, 
+  .topnav ul li {display: inline-block;}
+  .testimonials {
+    display: inline-block;
+  }
+  .logo-container {
+    height: 200px;
+  }
+  .roofing-services {
+    background-color: rgba(44, 120, 235, 0.5);
+    padding: 10px;
+    height: 15%; 
+    display: block;
+    word-wrap: break-word;
+  }
+  .roofing-services .before-and-after-example {
+    display: block;
+    float: right; 
+    margin: 0px 0px 15px 15px;
+    padding: 10px;
+    width: 300px;
+    height: 175px;
+    overflow: hidden;
+  }
+  .topnav a {
+    margin: 0 auto; 
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 2px 2px;
+    text-decoration: none;
+  }
+
+  .roofing-services .before-and-after-example {
+    float: right; 
+    margin: 0px 0px 15px 15px;
+    padding: 10px;
+    width: 200px;
+    height: 130px;
+    overflow: hidden;
+  }
+}
