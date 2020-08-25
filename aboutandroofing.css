@@ -1,0 +1,74 @@
+
+.about {
+    background-image: url("photos/background.jpg");
+        background-color: rgb(146, 145, 145);
+
+    height: 300px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    padding: 10px;
+    height: 20%; /* Should be removed. Only for demonstration */
+    display: inline-block;
+  }
+
+
+/* Slideshow container */
+.slideshow-container {
+  float: left; 
+  width:250px;
+  height:200px;
+  overflow: hidden;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 2.0s;
+  animation-name: fade;
+  animation-duration: 2.0s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+/* Style the content; Slideshow styling at bottom */
+ 
+.connect {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  }
+  
+  
+
+  
+  /* Roofing Services Content */
+  .roofing-services {
+    background-color: rgba(31, 27, 238, 0.7);
+    padding: 10px;
+    height: 15%; 
+    display: inline-block;
+    word-wrap:break-word;
+  }
+  
+  .roofing-services .before-and-after-example {
+    float: right; 
+    margin: 0px 0px 15px 15px;
+    padding: 10px;
+    width: 350px;
+    height: 200px;
+    overflow: hidden;
+  }
+  
