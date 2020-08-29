@@ -6,6 +6,8 @@
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(187, 195, 199); 
+
 }
 .container {
   display: flex;
@@ -20,24 +22,49 @@ a:hover {
 }
 
 @media screen and (max-width: 600px){
-  .testimonials {
-    margin-left: auto;
+  .container {
+    width: 100%;
+    overflow: hidden;
+  }
+  .topnav {
+    display: none;
+  }
+  .photo-headliner .inner-text h1, .photo-headliner .inner-text h2{
+    display: none;
+  }
+
+  .photo-headliner {
+    position: relative;
+    background-color: white;
+    padding: 10px;
+    height: 150px;
+    overflow: hidden;
+    background-image: url("photos/construction2.jpg");
+    background-color: #cccccc; /* Used if the image is unavailable */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+  .slideshow-container {
+    display: block;
     margin-right: auto;
-    float: left;
+    margin-left: auto;
+  }
+
+  .about {
+    background-color: rgb(146, 145, 145);
+    height: 20%; /* Should be removed. Only for demonstration */
+  }
+  .testimonials {
+    height: 20%;
   }
 
   .testimonials .before-and-after {
-    width: 60%;
-    display: block;
+    width: 80%;
   }
 
-  .topnav ul li.right, 
-  .topnav ul li {display: inline-block;}
-  .testimonials {
-    display: inline-block;
-  }
   .logo-container {
-    height: 200px;
+    height: 500px;
   }
   .roofing-services {
     background-color: rgba(44, 120, 235, 0.5);
@@ -78,13 +105,4 @@ a:hover {
   .map {
     width: 100%;
   }
-
 }
-
-
-
-
-
-
-
-

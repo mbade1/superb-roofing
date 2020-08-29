@@ -1,10 +1,9 @@
 .testimonials {
-     background-color: rgb(187, 195, 199); 
-    padding: 10px;
+    background-color: rgb(187, 195, 199); 
     height: 20%; /* Should be removed. Only for demonstration */
     width: 100%;
     overflow: hidden;
-    float: left;
+    display: inline-block;
 }
 
 .testimonials h2{
@@ -15,9 +14,9 @@
 }
 
 .testimonials .before-and-after {
-    width: 31%;
+    width: 30%;
     height: 30%;
-    float: left;
+    float: left;    
     margin: 10px;
     text-align: center;
     border-radius: 25px;
@@ -28,6 +27,7 @@
     width: 302px;
     height: 207px;
     border-radius: 25px;
+
 }
 
   /* 
