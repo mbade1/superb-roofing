@@ -3,11 +3,10 @@ header {
     margin: 0 auto; 
     height: 110px;
     display: flex;
-  
 }
 
 .logo-container {
-    background-image: url("photos/background.jpeg");
+    background-image: url("../photos/background.jpeg");
     background-color: #cccccc; /* Used if the image is unavailable */
     height: 300px; /* You must set a specified height */
     background-position: center; /* Center the image */
@@ -40,6 +39,7 @@ header {
     text-align: center;
     display: inline-block;
 }
+
 .topnav ul {
     list-style-type: none;
     position: sticky;
@@ -91,7 +91,7 @@ header {
     padding: 10px;
     height: 300px;
     overflow: hidden;
-    background-image: url("photos/construction2.jpg");
+    background-image: url("../photos/construction2.jpg");
     background-color: #cccccc; /* Used if the image is unavailable */
     height: 300px; /* You must set a specified height */
     background-position: center; /* Center the image */
