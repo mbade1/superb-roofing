@@ -5,8 +5,14 @@
   display: inline-block;
 }
 
-.testimonials h2{
-  text-align: center;
+.testimonials span{
+  font-size: 1.5em;
+  position: absolute;
+  left: 0;
+  font-weight: bold;
+  margin: 5px;
+  margin-left: 20px;
+  margin-top: 25px;
 }
 
 .testimonials p {

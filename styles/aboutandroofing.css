@@ -11,8 +11,10 @@
 }
 
 #colossians {
-  text-align: center;
-  font-size: 1.5em;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  font-size: 1.2em;
 }
 
 /* Slideshow container */
@@ -55,23 +57,7 @@
   justify-content: center;
 }
   
-  /* Roofing Services Content */
-.roofing-services {
-  background-color: rgba(31, 27, 238, 0.7);
-  padding: 10px;
-  height: 15%; 
-  display: inline-block;
-  word-wrap:break-word;
-}
-  
-.roofing-services .before-and-after-example {
-  float: right; 
-  margin: 0px 0px 15px 15px;
-  padding: 10px;
-  width: 350px;
-  height: 200px;
-  overflow: hidden;
-}  
+
 
 
 
