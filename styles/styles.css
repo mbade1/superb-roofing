@@ -21,6 +21,9 @@ a:hover {
   color: rgba(31, 27, 238, 0.7);
 }
 
+
+
+
 @media screen and (max-width: 600px){
   .container {
     width: 100%;
@@ -41,7 +44,7 @@ a:hover {
     padding: 10px;
     height: 150px;
     overflow: hidden;
-    background-image: url("../photos/construction2.jpg");
+    background-image: url("../photos/header.jpeg");
     background-color: #cccccc; /* Used if the image is unavailable */
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
@@ -49,9 +52,18 @@ a:hover {
   }
 
   .slideshow-container {
-    display: block;
-    margin-right: auto;
+    float: left; 
+    width:200px;
+    height:200px;
+    overflow: hidden;
+    margin-right: 5px;
     margin-left: auto;
+    /* border-radius: 20px; */
+  }
+
+  #colossians {
+    font-size: 1.2em;
+    font-weight: bold;
   }
 
   .about {
@@ -64,7 +76,13 @@ a:hover {
   }
 
   .testimonials .before-and-after {
-    width: 80%;
+    width: 100%;
+    margin-left: 0px;
+  }
+
+  .testimonials .before-and-after-red {
+    width: 100%;
+    margin-left: 0px;
   }
 
   .logo-container {
@@ -109,6 +127,11 @@ a:hover {
 
   .contact {
     width: 100%;
+  }
+
+  .contact iframe {
+    width: 80%;
+    height: auto;
   }
   
   .map {

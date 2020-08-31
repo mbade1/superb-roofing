@@ -3,7 +3,7 @@
     background-color: rgb(146, 145, 145);
     height: auto; /* You must set a specified height */
     padding: 10px;
-    height: 20%; /* Should be removed. Only for demonstration */
+    /* height: 800px; Should be removed. Only for demonstration */
     width: 100%;
     float: left;
     overflow: hidden;
@@ -21,9 +21,9 @@
 }
 
 .contact iframe {
-  width: 50%;
   justify-content: center;
-  height: 50%;
+  width: 640px;
+  height: 352px;
 }
   
 .map {

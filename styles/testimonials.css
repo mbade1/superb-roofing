@@ -1,6 +1,5 @@
 .testimonials {
   background-color: rgb(187, 195, 199); 
-  height: 20%; /* Should be removed. Only for demonstration */
   width: 100%;
   overflow: hidden;
   display: inline-block;
@@ -14,20 +13,145 @@
   text-align: center;
 }
 
-.testimonials .before-and-after {
+.before-and-after-1 {
+  position: relative;
+  float: left;
+  background-color: white;
+  padding: 10px;
+  height: auto;
   width: 30%;
-  height: 30%;
-  float: left;    
+  overflow: hidden;
+  background-image: url("../photos/roofs/roof-1.JPG");
+  background-color: #cccccc; 
+  height: 300px; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  border-radius: 25px;
+  margin: 20px;
+  margin-top: 80px;
+}
+
+.before-and-after-2 {
+  position: relative;
+  float: left;
+  background-color: white;
+  padding: 10px;
+  height: 400px;
+  width: 30%;
+  overflow: hidden;
+  background-image: url("../photos/roofs/roof-2.JPG");
+  background-color: #cccccc; 
+  height: 480px; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  border-radius: 25px;
+  margin: 10px;
+  margin-top: 15px;
+
+}
+
+.before-and-after-3 {
+  position: relative;
+  float: left;
+  background-color: white;
+  padding: 10px;
+  height: auto;
+  width: 30%;
+  overflow: hidden;
+  background-image: url("../photos/roofs/roof-3.jpeg");
+  background-color: #cccccc; 
+  height: 300px; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  border-radius: 25px;
+  margin: 20px;
+  margin-top: 80px;
+
+}
+
+.roof-quote-1 {
+  text-align: center;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  width: 90%;
+  -webkit-text-stroke: 0.4px black;
+  transform: translate(-50%, -50%);
+  font-weight: bold;
+  font-size: 0.9em;
+  color: black;
+}  
+
+.roof-quote-2 {
+  text-align: center;
+  position: absolute;
+  top: 88%;
+  left: 50%;
+  width: 90%;
+  font-size: 0.9em;
+  /* -webkit-text-stroke: 0.4px black; */
+  transform: translate(-50%, -50%);
+  font-weight: bold;
+  color: white;
+}  
+
+.roof-quote-3 {
+  text-align: center;
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  width: 90%;
+  -webkit-text-stroke: 0.4px black;
+  transform: translate(-50%, -50%);
+  font-weight: bold;
+  font-size: 0.9em;
+}  
+
+
+
+
+
+
+
+
+.testimonials .before-and-after  {
+  width: 30%;
+  height: auto;
+  float: left;
   margin: 10px;
   text-align: center;
   border-radius: 25px;
   font-size: 0.8em;
+  border: 4px solid blue;
+  bottom: 50%;
+}
+
+.testimonials .before-and-after-red {
+  width: 30%;
+  height: auto;
+  float: left;
+  margin: 10px;
+  text-align: center;
+  border-radius: 25px;
+  font-size: 0.8em;
+  border: 4px solid blue;
 }
 
 .testimonials .before-and-after img {
-  width: 302px;
-  height: 207px;
+  margin-left: auto;
+  margin-right: auto;
+  /* width: 300px;
+  height: 300px; */
   border-radius: 25px;
+}
+
+.before-and-after-red img {
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 35px;
 }
 
   /* 
