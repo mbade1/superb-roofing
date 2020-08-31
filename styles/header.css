@@ -1,124 +1,124 @@
 header {
-    width: 100%;
-    margin: 0 auto; 
-    height: 110px;
-    display: flex;
+  width: 100%;
+  margin: 0 auto; 
+  height: 110px;
+  display: flex;
 }
 
 .logo-container {
-    background-image: url("../photos/background.jpeg");
-    background-color: #cccccc; /* Used if the image is unavailable */
-    height: 300px; /* You must set a specified height */
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: cover; /* Resize the background image to cover the entire container */
-    width: 100%;
+  background-image: url("../photos/background.jpeg");
+  background-color: #cccccc; 
+  height: 300px; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  width: 100%;
 }
 
 /* Style logo in header */
 .logo-container .logo {
-    float: left;
-    width: 353px;
-    height: 117px;
-    padding-right: 5px;
+  float: left;
+  width: 353px;
+  height: 117px;
+  padding-right: 5px;
 }
 
 .josh {
-    float: right; 
-    width:79px;
-    height:105px;
-    margin-right: 5px;
-    margin-top: 2px;
-    margin-bottom: 2px;
-    overflow: hidden;
-    border-radius: 25%;
+  float: right; 
+  width:79px;
+  height:105px;
+  margin-right: 5px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  overflow: hidden;
+  border-radius: 25%;
 } 
 
 .logo-container span {
-    font-size: 0.8em;
-    float: right;
-    margin-right: 5px;
+  font-size: 0.8em;
+  float: right;
+  margin-right: 5px;
 }
   
 /* Style the top navigation bar */
 .topnav {
-    width: 100%;
-    text-align: center;
-    display: inline-block;
+  width: 100%;
+  text-align: center;
+  display: inline-block;
 }
 
 .topnav ul {
-    list-style-type: none;
-    position: sticky;
-    top: 0;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-    padding-left: 20px;
+  list-style-type: none;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  padding-left: 20px;
 }
   
 .topnav li {
-    display: inline;
+  display: inline;
 }
   
 .topnav li a {
-    display: inline-block;
-    text-decoration: none;
-    text-align: center;
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
 }
   
 .topnav ul li.right {
-    float: right;
+  float: right;
 }
   
 .topnav a {
-    margin: 0 auto; 
-    display: inline;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    padding: 20px;
+  margin: 0 auto; 
+  display: inline;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  padding: 20px;
 }
   
 .topnav a:hover {
-    background-color: rgb(167, 161, 161);
-    color: black;
+  background-color: rgb(167, 161, 161);
+  color: black;
 }
   
 /* Styles for photo header */
 .photo-headliner {
-    position: relative;
-    background-color: white;
-    padding: 10px;
-    height: 300px;
-    overflow: hidden;
-    background-image: url("../photos/header.jpeg");
-    background-color: #cccccc; /* Used if the image is unavailable */
-    height: 300px; /* You must set a specified height */
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: cover; /* Resize the background image to cover the entire container */
+  position: relative;
+  background-color: white;
+  padding: 10px;
+  height: 300px;
+  overflow: hidden;
+  background-image: url("../photos/header.jpeg");
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 300px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
 }
   
 .inner-text {
-    font-family: "Arial Black";
-    text-align: center;
-    position: absolute;
-    font-weight: 900;
-    top: 50%;
-    left: 25%;
-    -webkit-text-stroke: 1px blue;
-    transform: translate(-50%, -50%);
-    color: white;
+  font-family: "Arial Black";
+  text-align: center;
+  position: absolute;
+  font-weight: 900;
+  top: 50%;
+  left: 25%;
+  -webkit-text-stroke: 1px blue;
+  transform: translate(-50%, -50%);
+  color: white;
 }  
 
 .inner-text h1{
-    -webkit-text-stroke: 2px rgb(31, 27, 238);
+  -webkit-text-stroke: 2px rgb(31, 27, 238);
 }
 
 .inner-text h3 {
-    font-size: 10px;
+  font-size: 10px;
 }
