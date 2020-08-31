@@ -22,7 +22,7 @@ a:hover {
   color: rgba(233, 232, 238, 0.7);
 }
 
-
+/* Phone/Media styling */
 @media screen and (max-width: 600px){
   .container {
     width: 100%;
