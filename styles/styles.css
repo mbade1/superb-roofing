@@ -123,6 +123,11 @@ a:hover {
 
   .testimonials .roof-quote-3 {
     top: 20%;
+    font-size: 0.7em;
+  }
+  .testimonials .roof-quote-1 {
+    top: 20%;
+    font-size: 0.7em;
   }
 
   .roofing-services {
@@ -185,7 +190,7 @@ a:hover {
 
   .contact iframe {
     width: 100%;
-    height: 215px;
+    height: 100%;
   }
 
   .contact-us {
