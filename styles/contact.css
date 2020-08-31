@@ -19,10 +19,10 @@
 }
 
 .news {
-float: left;
-width: 48%;
-margin-right: 10px;
-text-align: center;
+  float: left;
+  width: 48%;
+  margin-right: 10px;
+  text-align: center;
 }
 
 .contact-us {
@@ -56,7 +56,6 @@ display: block;  width: 640px;
   margin-left: auto;
   overflow: hidden;
   border-radius: 25px;
-  border: 1px solid black;
 }
 
 .contact .social-icons {
