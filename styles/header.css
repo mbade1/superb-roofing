@@ -8,7 +8,7 @@ header {
 .logo-container {
   background-image: url("../photos/background.jpeg");
   background-color: #cccccc; 
-  height: 300px; 
+  height: auto; 
   background-position: center; 
   background-repeat: no-repeat; 
   background-size: cover; 
@@ -91,12 +91,11 @@ header {
 /* Styles for photo header */
 .photo-headliner {
   position: relative;
-  background-color: white;
   padding: 10px;
   height: 300px;
   overflow: hidden;
   background-image: url("../photos/header.jpeg");
-  background-color: #cccccc; /* Used if the image is unavailable */
+  background-color: #cccccc; /*Used if the image is unavailable */
   height: 300px; /* You must set a specified height */
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */

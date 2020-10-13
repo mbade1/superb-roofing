@@ -6,13 +6,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="format-detection" content="telephone=no">
 
-  <link rel="stylesheet" href="styles/header.css"></link>
+  <!-- <link rel="stylesheet" href="styles/header.css"></link>
   <link rel="stylesheet" href="styles/testimonials.css"></link>
   <link rel="stylesheet" href="styles/aboutandroofing.css"></link>
   <link rel="stylesheet" href="styles/contact.css"></link>
   <link rel="stylesheet" href="styles/roofing.css"></link>
-  <link rel="stylesheet" href="styles/styles.css"></link>
+  <link rel="stylesheet" href="styles/styles.css"></link> -->
+  <link rel="stylesheet" href="styles/styles-minified.css"></link>
+
   <link rel="icon" type="image/png" href="photos/favicon.ico">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
   <div clas="container">
@@ -43,7 +46,7 @@
     </ul>
   </div>
 
-  <div class="photo-headliner">
+  <div class="photo-headliner" data-aos="fade" data-aos-duration="2000">
     <div class="inner-text">
       <h1 style="font-size: 50px;">Superb Roofing </h1>
       <h2 style="font-size: 25px;"><i class="slogan"><strong>For your family and ours!</strong></i></h2>
@@ -90,15 +93,15 @@
   <div class="testimonials">
     <a id="testimonials"></a>
     <span>Testimonials</span>
-    <div class="before-and-after-1">
+    <div class="before-and-after-1" data-aos="zoom-in-left" data-aos-delay="250" data-aos-offset="300">
       <div class="roof-quote-1">"Best roofing experience. Josh really came through for all of our needs. He made the insurance process go from stressful to nothing to worry about and we received a new roof out of it, fully covered by our insurance! I wouldn't trust anyone else with my roof. Superb is our only roofer." - Alice
       </div>
     </div>
-    <div class="before-and-after-2">
+    <div class="before-and-after-2" data-aos="zoom-in-up" data-aos-offset="300">
       <div class="roof-quote-2">"Josh was very professional and honest. He took care of all the run around we got from our insurance company which not many roofing companies would want to deal with. He took extra time to explain each process every step of the way."- Sandra
       </div>
     </div>
-    <div class="before-and-after-3">
+    <div class="before-and-after-3" data-aos="zoom-in-right" data-aos-delay="250" data-aos-offset="300">
       <div class="roof-quote-3">"Superb roofing helped me every step of the way. They were patient, helpful, kind, and a wonderful family to work with. I highly recommend Superb Roofing."- David
       </div>
     </div>
@@ -110,31 +113,31 @@
     <p>
       We have experience with All Roofing Systems from metal, slate, and even clay, tar, and gravel! Call us today to find out about all of your roofing options!
     </p>
-    <div class="roof-service">
+    <div class="roof-service" data-aos="zoom-in-right">
       <a href="http://www.condopedia.com/wiki/Tar_and_Gravel" target="_blank"> <img src="photos/services/gravel.jpeg"></a>
       <p>Tar and Gravel Roof</p>      
     </div>
-    <div class="roof-service">
+    <div class="roof-service" data-aos="zoom-in-right">
       <a href="https://en.wikipedia.org/wiki/Wood_shingle" target="_blank"><img src="photos/services/wooden-shake.jpg"></a>
       <p>Wooden Shake Roof</p>
     </div>
-    <div class="roof-service">
+    <div class="roof-service" data-aos="zoom-in-right">
       <a href="https://en.wikipedia.org/wiki/Roof_shingle" target="_blank"><img src="photos/services/tar.jpeg"></a>
       <p>Shingle Roof</p>
     </div>
-    <div class="roof-service-mid">
+    <div class="roof-service-mid" data-aos="zoom-in-left">
       <a href="https://www.designingbuildings.co.uk/wiki/Roof_slates" target="_blank"><img src="photos/services/slate.jpeg"></a>
       <p>Slate Roof</p>
     </div>
-    <div class="roof-service-mid">
+    <div class="roof-service-mid" data-aos="zoom-in-left">
       <a href="https://en.wikipedia.org/wiki/Roof_tiles" target="_blank"><img src="photos/services/tile.jpeg"></a>
       <p>Clay Tile Roof</p>
     </div>
-    <div class="roof-service-mid">
+    <div class="roof-service-mid" data-aos="zoom-in-up">
       <a href="https://en.wikipedia.org/wiki/Metal_roof" target="_blank"><img src="photos/services/metal.jpeg"></a>
       <p>Metal Roof</p>
     </div>
-    <div class="roof-service-mid">
+    <div class="roof-service-mid" data-aos="zoom-in-up">
       <a href="https://www.homeadvisor.com/r/rubber-roofing/#:~:text=Single%2Dply%20synthetic%20membrane%20rubber,shingles%20don't%20perform%20well." target="_blank"><img src="photos/services/rubber.jpeg"></a>
       <p>Rubber Roof</p>
     </div>
@@ -173,7 +176,15 @@
     <p>&#169; Copyright 2020 - Do not copy. All Rights Reserved.</p>
   </div>
 </div>
-<script src="js/testimonials.js"></script>
+
 <script src="js/slideshow.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init({
+    offset: 100,
+    duration: 1500,
+    once: true
+  });
+</script>
 </body>
 </html>
