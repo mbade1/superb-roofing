@@ -508,11 +508,10 @@ header {
 .photo-headliner {
   position: relative;
   padding: 10px;
-  height: 300px;
   overflow: hidden;
   background-image: url("../photos/header.jpeg");
   background-color: #cccccc; /*Used if the image is unavailable */
-  height: 300px; /* You must set a specified height */
+  height: 500px; /* You must set a specified height */
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
@@ -531,6 +530,12 @@ header {
 }  
 
 .inner-text h1{
+  font-size: 3em;
+  -webkit-text-stroke: 2px rgb(31, 27, 238);
+}
+
+.inner-text h2{
+  font-size: 2em;
   -webkit-text-stroke: 2px rgb(31, 27, 238);
 }
 
