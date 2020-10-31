@@ -509,7 +509,7 @@ header {
   position: relative;
   padding: 10px;
   overflow: hidden;
-  background-image: url("../photos/header.jpeg");
+  background-image: url("../photos/header-cropped-1.jpg");
   background-color: #cccccc; /*Used if the image is unavailable */
   height: 500px; /* You must set a specified height */
   background-position: center; /* Center the image */
@@ -517,13 +517,13 @@ header {
   background-size: cover; /* Resize the background image to cover the entire container */
 }
   
-.inner-text {
+/* .inner-text {
   font-family: "Arial Black";
   text-align: center;
   position: absolute;
   font-weight: 900;
-  top: 50%;
-  left: 25%;
+  top: 120px;
+  left: 50%;
   -webkit-text-stroke: 1px blue;
   transform: translate(-50%, -50%);
   color: white;
@@ -535,13 +535,50 @@ header {
 }
 
 .inner-text h2{
-  font-size: 2em;
+  font-size: 2.5em;
   -webkit-text-stroke: 2px rgb(31, 27, 238);
 }
 
 .inner-text h3 {
-  font-size: 10px;
+  font-size: 2.0em;
 }
+
+.inner-text h3 .LA-credit {
+  font-size: 0.8em;
+} */
+
+/* Option # 1 */
+.inner-text {
+  font-family: "Arial Black";
+  text-align: center;
+  position: absolute;
+  font-weight: 900;
+  top: 60%;
+  left: 350px;
+  -webkit-text-stroke: 1px blue;
+  transform: translate(-50%, -50%);
+  color: white;
+}  
+
+.inner-text h1{
+  font-size: 3em;
+  -webkit-text-stroke: 2px rgb(31, 27, 238);
+}
+
+.inner-text h2{
+  font-size: 2.5em;
+  -webkit-text-stroke: 2px rgb(31, 27, 238);
+}
+
+.inner-text h3 {
+  font-size: 2.0em;
+}
+
+.inner-text h3 .LA-credit {
+  font-size: 0.8em;
+}
+
+
 
 
 
