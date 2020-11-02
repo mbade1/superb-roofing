@@ -139,34 +139,37 @@ header {
   position: absolute;
   font-weight: 900;
   top: 70%;
-  left: 35%;
-  -webkit-text-stroke: 1px blue;
+  left: 25%;
+  -webkit-text-stroke: 2px rgb(66, 78, 120);
   transform: translate(-50%, -50%);
   color: white;
 }  
 
 .inner-text h1{
   font-size: 3em;
-  -webkit-text-stroke: 2px rgb(31, 27, 238);
+  -webkit-text-stroke: 2px rgb(66, 78, 120);
+  margin: 0;
+  padding: 0;
+
 }
 
 .inner-text h2{
   font-size: 2.5em;
-  -webkit-text-stroke: 2px rgb(31, 27, 238);
+  -webkit-text-stroke: 2px rgb(66, 78, 120);
+  margin: 5px;
+  padding: 5px;
 }
 
 .inner-text h3 {
   font-size: 2.0em;
+  -webkit-text-stroke: 1px rgb(66, 78, 120);
+  margin: 0;
+  padding: 0;
 }
 
 .inner-text h3 .LA-credit {
   font-size: 0.8em;
 }
-
-
-
-
-
 
 /* About and Roofing */
 
