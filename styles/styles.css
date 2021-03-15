@@ -518,6 +518,10 @@ header {
     margin:15px;
   }
 
+  .appointment-fixed div {
+    margin: 10px;
+  }
+
   .appointment-fixed div a {
     color: white;
     font-size:1.5em;
